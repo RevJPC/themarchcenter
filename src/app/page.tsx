@@ -52,7 +52,7 @@ export default function ComingSoonPage() {
               {siteConfig.name}
             </span>
             <span className="text-xs text-sage-600 font-medium tracking-wide">
-              Supervised Family Visitation
+              Family Visitation & Safe Exchanges
             </span>
           </div>
         </div>
@@ -148,11 +148,11 @@ export default function ComingSoonPage() {
                       onChange={(e) => setRole(e.target.value)}
                       className="w-full px-3 py-2.5 rounded-xl border border-sage-200 bg-warm-50/50 text-sage-800 text-sm focus:outline-none focus:ring-2 focus:ring-sage-500 focus:border-transparent"
                     >
+                      <option value="Parent / Caregiver">
+                        Parent / Caregiver
+                      </option>
                       <option value="Caseworker / Agency">
                         Caseworker / Agency
-                      </option>
-                      <option value="Family / Caregiver">
-                        Family / Caregiver
                       </option>
                       <option value="Legal / Court Partner">
                         Legal / Court Partner

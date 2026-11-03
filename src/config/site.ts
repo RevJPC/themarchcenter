@@ -1,11 +1,12 @@
 export const siteConfig = {
   name: "The March Center",
-  tagline: "Safe, Compassionate Supervised Visitation for Children & Families",
+  tagline:
+    "Safe, Compassionate Family Visitation & Custody Exchanges in Asheville, NC",
   statusBadge: "Coming Soon",
   description:
-    "The March Center is an upcoming family visitation center dedicated to hosting and facilitating safe, trauma-informed supervised visitation for children who have been separated from their birth families.",
+    "The March Center is an upcoming family resource center dedicated to hosting and facilitating safe, supportive supervised visitation and neutral custody exchanges for children and families in transition.",
   mission:
-    "We believe every child deserves a nurturing, welcoming environment to maintain meaningful connections with their family while prioritizing safety, dignity, and emotional well-being.",
+    "Whether families are navigating shared parenting, custody transfers, or reunification, we believe every child deserves a calm, welcoming environment to connect and transition between caregivers with safety, dignity, and peace of mind.",
   nameStory:
     "Inspired by the warmth, resilience, and unwavering devotion to family found in the March home of Louisa May Alcott’s Little Women, The March Center is built on the belief that every child deserves a place that feels like home.",
   location: {
@@ -20,17 +21,17 @@ export const siteConfig = {
     {
       title: "Child-Centered Environment",
       description:
-        "Warm, welcoming rooms designed to feel like home—helping children and parents relax, play, and bond naturally during visits.",
+        "Warm, welcoming rooms designed to feel like home—helping children and parents relax, play, and spend quality time together.",
     },
     {
-      title: "Trained, Neutral Supervision",
+      title: "Safe, Neutral Exchanges & Supervision",
       description:
-        "Professional, trauma-informed observation and facilitation that ensures physical and emotional safety for every child.",
+        "Stress-free, monitored child transfers and trauma-informed visitation support that prioritize physical and emotional well-being for everyone involved.",
     },
     {
-      title: "Agency & Court Collaboration",
+      title: "Family, Court & Agency Support",
       description:
-        "Reliable scheduling, clear documentation, and seamless coordination with caseworkers, foster families, and birth parents.",
+        "Reliable scheduling, clear documentation, and seamless coordination for co-parents, caregivers, family courts, and community agencies.",
     },
   ],
 };

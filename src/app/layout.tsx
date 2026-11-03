@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: `${siteConfig.name} | ${siteConfig.statusBadge}`,
   description: siteConfig.description,
   openGraph: {
-    title: `${siteConfig.name} — Supervised Family Visitation`,
+    title: `${siteConfig.name} — Family Visitation & Safe Exchanges`,
     description: siteConfig.description,
     type: "website",
   },
