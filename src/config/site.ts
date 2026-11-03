@@ -6,6 +6,8 @@ export const siteConfig = {
     "The March Center is an upcoming family visitation center dedicated to hosting and facilitating safe, trauma-informed supervised visitation for children who have been separated from their birth families.",
   mission:
     "We believe every child deserves a nurturing, welcoming environment to maintain meaningful connections with their family while prioritizing safety, dignity, and emotional well-being.",
+  nameStory:
+    "Inspired by the warmth, resilience, and unwavering devotion to family found in the March home of Louisa May Alcott’s Little Women, The March Center is built on the belief that every child deserves a place that feels like home.",
   location: {
     cityState: "Asheville, NC",
     note: "Facility location and hours in the Asheville area to be announced soon.",

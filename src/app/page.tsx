@@ -83,9 +83,13 @@ export default function ComingSoonPage() {
             {siteConfig.description}
           </p>
 
-          <p className="text-base text-sage-600 leading-relaxed">
+          <p className="text-base text-sage-600 leading-relaxed mb-6">
             {siteConfig.mission}
           </p>
+
+          <blockquote className="max-w-xl mx-auto px-5 py-3.5 rounded-xl bg-warm-100/80 border border-warm-200/80 text-sm italic text-sage-700 leading-relaxed">
+            &ldquo;{siteConfig.nameStory}&rdquo;
+          </blockquote>
         </section>
 
         {/* Notification / Early Inquiry Box */}
