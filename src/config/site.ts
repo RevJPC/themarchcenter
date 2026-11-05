@@ -12,9 +12,16 @@ export const siteConfig = {
   location: {
     cityState: "Asheville, NC",
     note: "Facility location and hours in the Asheville area to be announced soon.",
+    address: {
+      line1: "P.O. Box 16005",
+      city: "Asheville",
+      state: "NC",
+      zip: "28816",
+      full: "P.O. Box 16005, Asheville, NC 28816",
+    },
   },
   contact: {
-    email: "jamiececil@gmail.com",
+    email: "themarchcenter@gmail.com",
     phone: "", // Optional phone number
   },
   highlights: [

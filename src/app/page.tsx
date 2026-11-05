@@ -207,12 +207,16 @@ export default function ComingSoonPage() {
           <div className="space-y-2">
             <div className="inline-flex items-center gap-2 text-warm-200 text-xs font-semibold uppercase tracking-wider">
               <MapPin className="w-4 h-4" />
-              <span>Location & Service Area</span>
+              <span>Location & Mailing Address</span>
             </div>
             <h3 className="font-serif text-xl font-bold text-white">
               Serving Children & Families in {siteConfig.location.cityState}
             </h3>
             <p className="text-sm text-sage-200">{siteConfig.location.note}</p>
+            <p className="text-xs text-sage-300 pt-1">
+              <span className="font-medium text-warm-200">Mailing Address:</span>{" "}
+              {siteConfig.location.address.line1}, {siteConfig.location.address.city}, {siteConfig.location.address.state} {siteConfig.location.address.zip}
+            </p>
           </div>
 
           <a
@@ -227,10 +231,15 @@ export default function ComingSoonPage() {
 
       {/* Footer */}
       <footer className="w-full max-w-5xl mx-auto px-6 py-8 border-t border-sage-200/60 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-sage-600">
-        <p>
-          &copy; {new Date().getFullYear()} {siteConfig.name}. All rights
-          reserved.
-        </p>
+        <div>
+          <p>
+            &copy; {new Date().getFullYear()} {siteConfig.name}. All rights
+            reserved.
+          </p>
+          <p className="text-sage-500 mt-1">
+            {siteConfig.location.address.line1} &bull; {siteConfig.location.address.city}, {siteConfig.location.address.state} {siteConfig.location.address.zip}
+          </p>
+        </div>
         <p className="flex items-center gap-4">
           <a
             href={`mailto:${siteConfig.contact.email}`}
