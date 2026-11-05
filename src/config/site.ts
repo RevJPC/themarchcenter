@@ -21,7 +21,7 @@ export const siteConfig = {
     },
   },
   contact: {
-    email: "themarchcenter@gmail.com",
+    email: "jamiececil@gmail.com",
     phone: "", // Optional phone number
   },
   highlights: [
